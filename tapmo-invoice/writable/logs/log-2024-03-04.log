@@ -1,0 +1,108 @@
+CRITICAL - 2024-03-04 02:31:55 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Invoice.php on line 291.
+ 1 APPPATH\Controllers\Invoice.php(291): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Invoice.php(323): App\Controllers\Invoice->createExcelFile()
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->generateExcelFileForCurrentData()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-03-04 02:37:43 --> Undefined array key "order_id"
+in APPPATH\Controllers\Invoice.php on line 292.
+ 1 APPPATH\Controllers\Invoice.php(292): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Invoice.php(323): App\Controllers\Invoice->createExcelFile()
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->generateExcelFileForCurrentData()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-03-04 03:16:59 --> Undefined array key "order_id"
+in APPPATH\Controllers\Invoice.php on line 292.
+ 1 APPPATH\Controllers\Invoice.php(292): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Invoice.php(323): App\Controllers\Invoice->createExcelFile()
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->generateExcelFileForCurrentData()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-03-04 03:27:45 --> Undefined array key "order_id"
+in APPPATH\Controllers\Invoice.php on line 307.
+ 1 APPPATH\Controllers\Invoice.php(307): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Invoice.php(339): App\Controllers\Invoice->createExcelFile()
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->generateExcelFileForCurrentData()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-03-04 03:30:55 --> fopen(D:\integrate-invoice\tapmo-invoice\writable\excel_files/current_data_20240304033055.xlsx): Failed to open stream: No such file or directory
+in FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php on line 117.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(117): fopen()
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(501): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle()
+ 4 APPPATH\Controllers\Invoice.php(317): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+ 5 APPPATH\Controllers\Invoice.php(338): App\Controllers\Invoice->createExcelFile()
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->generateExcelFileForCurrentData()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-03-04 03:33:40 --> syntax error, unexpected identifier "Closure", expecting variable
+in FCPATH\vendor\maennchen\zipstream-php\src\ZipStream.php on line 111.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\ZipStream3.php(15): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\ZipStream0.php(15): PhpOffice\PhpSpreadsheet\Writer\ZipStream3::newZipStream()
+ 5 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(503): PhpOffice\PhpSpreadsheet\Writer\ZipStream0::newZipStream()
+ 6 APPPATH\Controllers\Invoice.php(325): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+ 7 APPPATH\Controllers\Invoice.php(347): App\Controllers\Invoice->createExcelFile()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->generateExcelFileForCurrentData()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-03-04 03:37:11 --> syntax error, unexpected identifier "Closure", expecting variable
+in FCPATH\vendor\maennchen\zipstream-php\src\ZipStream.php on line 111.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\ZipStream3.php(15): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\ZipStream0.php(15): PhpOffice\PhpSpreadsheet\Writer\ZipStream3::newZipStream()
+ 5 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(503): PhpOffice\PhpSpreadsheet\Writer\ZipStream0::newZipStream()
+ 6 APPPATH\Controllers\Invoice.php(325): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+ 7 APPPATH\Controllers\Invoice.php(347): App\Controllers\Invoice->createExcelFile()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->generateExcelFileForCurrentData()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-03-04 05:29:41 --> syntax error, unexpected identifier "Closure", expecting variable
+in FCPATH\vendor\maennchen\zipstream-php\src\ZipStream.php on line 111.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\ZipStream3.php(15): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\ZipStream0.php(15): PhpOffice\PhpSpreadsheet\Writer\ZipStream3::newZipStream()
+ 5 FCPATH\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(503): PhpOffice\PhpSpreadsheet\Writer\ZipStream0::newZipStream()
+ 6 APPPATH\Controllers\Invoice.php(325): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+ 7 APPPATH\Controllers\Invoice.php(347): App\Controllers\Invoice->createExcelFile()
+ 8 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->generateExcelFileForCurrentData()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-03-04 06:04:45 --> Undefined array key "order_id"
+in APPPATH\Controllers\Invoice.php on line 292.
+ 1 APPPATH\Controllers\Invoice.php(292): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Invoice.php(325): App\Controllers\Invoice->createExcelFile()
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->generateExcelFileForCurrentData()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-03-04 06:31:12 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Invoice.php on line 280.
+ 1 APPPATH\Controllers\Invoice.php(280): json_decode()
+ 2 APPPATH\Controllers\Invoice.php(339): App\Controllers\Invoice->createExcelFile()
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->generateExcelFileForCurrentData()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

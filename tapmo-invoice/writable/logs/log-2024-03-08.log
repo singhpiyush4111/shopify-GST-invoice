@@ -1,0 +1,16 @@
+CRITICAL - 2024-03-08 00:51:09 --> CodeIgniter\HTTP\Response::download(): Argument #1 ($filename) must be of type string, CodeIgniter\HTTP\Response given, called in D:\integrate-invoice\tapmo-invoice\app\Controllers\Invoice.php on line 471
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 775.
+ 1 APPPATH\Controllers\Invoice.php(471): CodeIgniter\HTTP\Response->download()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->generateExcelFileForCurrentData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-03-08 00:52:45 --> file_get_contents(): Argument #1 ($filename) must be of type string, CodeIgniter\HTTP\Response given
+in APPPATH\Controllers\Invoice.php on line 471.
+ 1 APPPATH\Controllers\Invoice.php(471): file_get_contents()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->generateExcelFileForCurrentData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,262 @@
+CRITICAL - 2024-02-20 03:24:53 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:25:04 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:25:04 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:25:04 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:43:26 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:43:48 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:43:49 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:43:50 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:43:50 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:43:51 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:43:52 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:43:56 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:43:56 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:44:02 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:44:03 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:50:27 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 03:50:39 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:04:44 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 109.
+ 1 APPPATH\Controllers\Invoice.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:04:46 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 109.
+ 1 APPPATH\Controllers\Invoice.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:04:51 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 109.
+ 1 APPPATH\Controllers\Invoice.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:07:22 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 109.
+ 1 APPPATH\Controllers\Invoice.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:10:47 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 109.
+ 1 APPPATH\Controllers\Invoice.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:10:49 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 109.
+ 1 APPPATH\Controllers\Invoice.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:10:52 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 109.
+ 1 APPPATH\Controllers\Invoice.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:11:20 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 109.
+ 1 APPPATH\Controllers\Invoice.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:11:28 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 109.
+ 1 APPPATH\Controllers\Invoice.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:11:38 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 109.
+ 1 APPPATH\Controllers\Invoice.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:12:32 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 109.
+ 1 APPPATH\Controllers\Invoice.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:14:24 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 107.
+ 1 APPPATH\Controllers\Invoice.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:14:25 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 107.
+ 1 APPPATH\Controllers\Invoice.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:18:41 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 107.
+ 1 APPPATH\Controllers\Invoice.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:18:52 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 107.
+ 1 APPPATH\Controllers\Invoice.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:19:19 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 107.
+ 1 APPPATH\Controllers\Invoice.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 09:21:17 --> Undefined property: stdClass::$orders
+in APPPATH\Controllers\Invoice.php on line 107.
+ 1 APPPATH\Controllers\Invoice.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-20 10:51:31 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

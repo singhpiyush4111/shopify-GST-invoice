@@ -1,0 +1,63 @@
+ERROR - 2024-02-07 00:01:36 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect()
+#1 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 D:\integrate-invoice\tapmo-invoice\app\Models\SiteModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\integrate-invoice\tapmo-invoice\app\Controllers\Home.php(26): App\Models\SiteModel->get_app_key()
+#6 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\CodeIgniter.php(864): App\Controllers\Home->__construct()
+#7 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#8 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\integrate-invoice\tapmo-invoice\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 D:\integrate-invoice\tapmo-invoice\app\Models\SiteModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\integrate-invoice\tapmo-invoice\app\Controllers\Home.php(26): App\Models\SiteModel->get_app_key()
+#5 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\CodeIgniter.php(864): App\Controllers\Home->__construct()
+#6 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#7 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 D:\integrate-invoice\tapmo-invoice\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\integrate-invoice\tapmo-invoice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('...')
+#10 {main}
+CRITICAL - 2024-02-07 00:01:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH\Models\SiteModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(26): App\Models\SiteModel->get_app_key()
+ 5 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-07 07:13:16 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 181.
+ 1 FCPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-02-07 08:25:09 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 181.
+ 1 FCPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-02-07 08:31:52 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 181.
+ 1 FCPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-02-07 03:33:21 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-02-07 03:33:32 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrdersApi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

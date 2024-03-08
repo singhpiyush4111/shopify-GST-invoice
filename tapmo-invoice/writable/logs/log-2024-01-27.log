@@ -1,0 +1,49 @@
+CRITICAL - 2024-01-27 07:58:12 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrders()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-27 07:58:12 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrders()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-27 08:40:32 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrders()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-27 08:40:37 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrders()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-27 08:40:37 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrders()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-27 08:41:01 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrders()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2024-01-27 10:22:15 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Invoice.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Invoice->getOrders()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

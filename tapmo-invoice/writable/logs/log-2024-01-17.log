@@ -1,0 +1,111 @@
+ERROR - 2024-01-17 00:41:53 --> Error connecting to the database: mysqli_sql_exception: Connection timed out in /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /www/kinsta/public/tapmo-invoice/app/Models/SiteModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 /www/kinsta/public/tapmo-invoice/app/Controllers/Home.php(26): App\Models\SiteModel->get_app_key()
+#6 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(887): App\Controllers\Home->__construct()
+#7 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+#8 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/kinsta/public/tapmo-invoice/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection timed out in /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /www/kinsta/public/tapmo-invoice/app/Models/SiteModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#4 /www/kinsta/public/tapmo-invoice/app/Controllers/Home.php(26): App\Models\SiteModel->get_app_key()
+#5 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(887): App\Controllers\Home->__construct()
+#6 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+#7 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/kinsta/public/tapmo-invoice/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-17 00:41:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/SiteModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(26): App\Models\SiteModel->get_app_key()
+ 5 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-17 00:42:26 --> Error connecting to the database: mysqli_sql_exception: Connection timed out in /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /www/kinsta/public/tapmo-invoice/app/Models/SiteModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 /www/kinsta/public/tapmo-invoice/app/Controllers/Home.php(26): App\Models\SiteModel->get_app_key()
+#6 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(887): App\Controllers\Home->__construct()
+#7 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+#8 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/kinsta/public/tapmo-invoice/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection timed out in /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /www/kinsta/public/tapmo-invoice/app/Models/SiteModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#4 /www/kinsta/public/tapmo-invoice/app/Controllers/Home.php(26): App\Models\SiteModel->get_app_key()
+#5 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(887): App\Controllers\Home->__construct()
+#6 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+#7 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/kinsta/public/tapmo-invoice/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-17 00:42:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection timed out
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/SiteModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(26): App\Models\SiteModel->get_app_key()
+ 5 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-17 00:42:39 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /www/kinsta/public/tapmo-invoice/app/Models/SiteModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 /www/kinsta/public/tapmo-invoice/app/Controllers/Home.php(26): App\Models\SiteModel->get_app_key()
+#6 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(887): App\Controllers\Home->__construct()
+#7 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+#8 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /www/kinsta/public/tapmo-invoice/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /www/kinsta/public/tapmo-invoice/app/Models/SiteModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#4 /www/kinsta/public/tapmo-invoice/app/Controllers/Home.php(26): App\Models\SiteModel->get_app_key()
+#5 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(887): App\Controllers\Home->__construct()
+#6 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+#7 /www/kinsta/public/tapmo-invoice/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/kinsta/public/tapmo-invoice/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-17 00:42:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/SiteModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(26): App\Models\SiteModel->get_app_key()
+ 5 SYSTEMPATH/CodeIgniter.php(887): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
